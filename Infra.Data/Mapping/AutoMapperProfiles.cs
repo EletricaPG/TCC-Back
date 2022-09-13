@@ -1,5 +1,6 @@
 using AutoMapper;
-using Domain.Entiy;
+using Domain.Entity;
+using Domain.Model;
 using Infra.Data.Model;
 
 namespace Infra.Data.Mapping
@@ -9,6 +10,9 @@ namespace Infra.Data.Mapping
         public AutoMapperProfiles()
         {
             CreateMap<Adm, AdmModel>().ReverseMap();
+            CreateMap<Category, CategoryModel>().ReverseMap();
+            CreateMap<Client, ClientModel>().ReverseMap();
+            CreateMap<Order, OrderModel>().ReverseMap();
         }
     }
 }

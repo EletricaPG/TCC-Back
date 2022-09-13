@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\isabe\\Desktop\\Loja-PG\\Loja-Pg\\Domain\\Domain.csproj": {}
+    "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\isabe\\Desktop\\Loja-PG\\Loja-Pg\\Domain\\Domain.csproj": {
+    "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\isabe\\Desktop\\Loja-PG\\Loja-Pg\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\isabe\\Desktop\\Loja-PG\\Loja-Pg\\Domain\\Domain.csproj",
+        "projectPath": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\isabe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\isabe\\Desktop\\Loja-PG\\Loja-Pg\\Domain\\obj\\",
+        "outputPath": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\isabe\\AppData\\Roaming\\NuGet\\NuGet.Config"
