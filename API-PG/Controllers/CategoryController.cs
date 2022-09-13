@@ -1,4 +1,3 @@
-
 using AutoMapper;
 using Domain.Entity;
 using Domain.Interfaces;
@@ -9,11 +8,12 @@ namespace API_PG.Controllers
 {
      [ApiController]
      [Route("api/[controller]")]
-    public class AdmController : ControllerBase
+
+    public class CategoryController : ControllerBase
     {
-        public IBaseService<Adm> Service {get;}
+        public IBaseService<Category> Service {get;}
         public IMapper Mapper {get;}
-        public AdmController(IBaseService<Adm> service,IMapper mapper)
+        public CategoryController(IBaseService<Category> service,IMapper mapper)
         {
             this.Mapper = mapper;
             this.Service = service;
@@ -22,29 +22,29 @@ namespace API_PG.Controllers
           public async Task<IActionResult> Get()
         {
             var entity = await this.Service.GetAll();
-            var results = this.Mapper.Map<AdmModel[]>(entity);
+            var results = this.Mapper.Map<CategoryModel[]>(entity);
             return Ok(entity);
         }
-        [HttpGet ("{AdmId}")]
-        public async Task<IActionResult>GetById(string AdmId)
+          [HttpGet ("{CategoryId}")]
+        public async Task<IActionResult>GetById(string CategoryId)
         {
-            var entity = await this.Service.GetById(AdmId);
-            var results = this.Mapper.Map<AdmModel>(entity);
+            var entity = await this.Service.GetById(CategoryId);
+            var results = this.Mapper.Map<CategoryModel>(entity);
             return Ok(entity);
         }
 
 
        [HttpPost]
-        public async Task<IActionResult> Post(AdmModel adm)
+        public async Task<IActionResult> Post(CategoryModel category)
         {
 
-            var adm1 = this.Mapper.Map<Adm>(adm);
+            var category1 = this.Mapper.Map<Category>(category);
            
 
-            this.Service.Add(adm1);
+            this.Service.Add(category1);
 
             if (await this.Service.SaveChangesAsync())
-                return Created($"api/Adm/{adm.Id}", adm);
+                return Created($"api/Category/{category.Id}", category);
             return BadRequest();
         }
 
@@ -62,7 +62,7 @@ namespace API_PG.Controllers
          }
 
          [HttpPut("{Id}")]
-         public async Task<IActionResult> Put(string Id, AdmModel model)
+         public async Task<IActionResult> Put(string Id, CategoryModel model)
          {
             var entity = await this.Service.GetById(Id);
 
@@ -72,7 +72,7 @@ namespace API_PG.Controllers
 
             if(await this.Service.SaveChangesAsync())
           
-            return Created($"api/Adm/{model.Id}", this.Mapper.Map<AdmModel>(entity));
+            return Created($"api/Category/{model.Id}", this.Mapper.Map<CategoryModel>(entity));
             return BadRequest();
          }  
     }

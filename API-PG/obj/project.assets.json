@@ -1628,11 +1628,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\isabe\\Desktop\\Loja-PG\\Loja-Pg\\API-PG\\API-PG.csproj",
+      "projectUniqueName": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\API-Pg\\API-PG.csproj",
       "projectName": "API-PG",
-      "projectPath": "C:\\Users\\isabe\\Desktop\\Loja-PG\\Loja-Pg\\API-PG\\API-PG.csproj",
+      "projectPath": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\API-Pg\\API-PG.csproj",
       "packagesPath": "C:\\Users\\isabe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\isabe\\Desktop\\Loja-PG\\Loja-Pg\\API-PG\\obj\\",
+      "outputPath": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\API-Pg\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\isabe\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1647,14 +1647,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\isabe\\Desktop\\Loja-PG\\Loja-Pg\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\isabe\\Desktop\\Loja-PG\\Loja-Pg\\Domain\\Domain.csproj"
+            "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\Domain.csproj"
             },
-            "C:\\Users\\isabe\\Desktop\\Loja-PG\\Loja-Pg\\Infra.Data\\Infra.Data.csproj": {
-              "projectPath": "C:\\Users\\isabe\\Desktop\\Loja-PG\\Loja-Pg\\Infra.Data\\Infra.Data.csproj"
+            "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Infra.Data\\Infra.Data.csproj": {
+              "projectPath": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Infra.Data\\Infra.Data.csproj"
             },
-            "C:\\Users\\isabe\\Desktop\\Loja-PG\\Loja-Pg\\Service\\Service.csproj": {
-              "projectPath": "C:\\Users\\isabe\\Desktop\\Loja-PG\\Loja-Pg\\Service\\Service.csproj"
+            "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Service\\Service.csproj": {
+              "projectPath": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Service\\Service.csproj"
             }
           }
         }

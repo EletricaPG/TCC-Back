@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\isabe\\Desktop\\Loja-PG\\Loja-Pg\\API-PG\\API-PG.csproj": {}
+    "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\api-pg\\API-PG.csproj": {}
   },
   "projects": {
-    "C:\\Users\\isabe\\Desktop\\Loja-PG\\Loja-Pg\\API-PG\\API-PG.csproj": {
+    "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\api-pg\\API-PG.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\isabe\\Desktop\\Loja-PG\\Loja-Pg\\API-PG\\API-PG.csproj",
+        "projectUniqueName": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\api-pg\\API-PG.csproj",
         "projectName": "API-PG",
-        "projectPath": "C:\\Users\\isabe\\Desktop\\Loja-PG\\Loja-Pg\\API-PG\\API-PG.csproj",
+        "projectPath": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\api-pg\\API-PG.csproj",
         "packagesPath": "C:\\Users\\isabe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\isabe\\Desktop\\Loja-PG\\Loja-Pg\\API-PG\\obj\\",
+        "outputPath": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\api-pg\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\isabe\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,14 +26,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\isabe\\Desktop\\Loja-PG\\Loja-Pg\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\isabe\\Desktop\\Loja-PG\\Loja-Pg\\Domain\\Domain.csproj"
+              "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\isabe\\Desktop\\Loja-PG\\Loja-Pg\\Infra.Data\\Infra.Data.csproj": {
-                "projectPath": "C:\\Users\\isabe\\Desktop\\Loja-PG\\Loja-Pg\\Infra.Data\\Infra.Data.csproj"
+              "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Infra.Data\\Infra.Data.csproj": {
+                "projectPath": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Infra.Data\\Infra.Data.csproj"
               },
-              "C:\\Users\\isabe\\Desktop\\Loja-PG\\Loja-Pg\\Service\\Service.csproj": {
-                "projectPath": "C:\\Users\\isabe\\Desktop\\Loja-PG\\Loja-Pg\\Service\\Service.csproj"
+              "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Service\\Service.csproj": {
+                "projectPath": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Service\\Service.csproj"
               }
             }
           }
@@ -79,14 +79,14 @@
         }
       }
     },
-    "C:\\Users\\isabe\\Desktop\\Loja-PG\\Loja-Pg\\Domain\\Domain.csproj": {
+    "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\isabe\\Desktop\\Loja-PG\\Loja-Pg\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\isabe\\Desktop\\Loja-PG\\Loja-Pg\\Domain\\Domain.csproj",
+        "projectPath": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\isabe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\isabe\\Desktop\\Loja-PG\\Loja-Pg\\Domain\\obj\\",
+        "outputPath": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\isabe\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -131,14 +131,14 @@
         }
       }
     },
-    "C:\\Users\\isabe\\Desktop\\Loja-PG\\Loja-Pg\\Infra.Data\\Infra.Data.csproj": {
+    "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Infra.Data\\Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\isabe\\Desktop\\Loja-PG\\Loja-Pg\\Infra.Data\\Infra.Data.csproj",
+        "projectUniqueName": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Infra.Data\\Infra.Data.csproj",
         "projectName": "Infra.Data",
-        "projectPath": "C:\\Users\\isabe\\Desktop\\Loja-PG\\Loja-Pg\\Infra.Data\\Infra.Data.csproj",
+        "projectPath": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Infra.Data\\Infra.Data.csproj",
         "packagesPath": "C:\\Users\\isabe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\isabe\\Desktop\\Loja-PG\\Loja-Pg\\Infra.Data\\obj\\",
+        "outputPath": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\isabe\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -153,8 +153,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\isabe\\Desktop\\Loja-PG\\Loja-Pg\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\isabe\\Desktop\\Loja-PG\\Loja-Pg\\Domain\\Domain.csproj"
+              "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\Domain.csproj"
               }
             }
           }
@@ -209,14 +209,14 @@
         }
       }
     },
-    "C:\\Users\\isabe\\Desktop\\Loja-PG\\Loja-Pg\\Service\\Service.csproj": {
+    "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\isabe\\Desktop\\Loja-PG\\Loja-Pg\\Service\\Service.csproj",
+        "projectUniqueName": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "C:\\Users\\isabe\\Desktop\\Loja-PG\\Loja-Pg\\Service\\Service.csproj",
+        "projectPath": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Service\\Service.csproj",
         "packagesPath": "C:\\Users\\isabe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\isabe\\Desktop\\Loja-PG\\Loja-Pg\\Service\\obj\\",
+        "outputPath": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\isabe\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -231,11 +231,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\isabe\\Desktop\\Loja-PG\\Loja-Pg\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\isabe\\Desktop\\Loja-PG\\Loja-Pg\\Domain\\Domain.csproj"
+              "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\isabe\\Desktop\\Loja-PG\\Loja-Pg\\Infra.Data\\Infra.Data.csproj": {
-                "projectPath": "C:\\Users\\isabe\\Desktop\\Loja-PG\\Loja-Pg\\Infra.Data\\Infra.Data.csproj"
+              "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Infra.Data\\Infra.Data.csproj": {
+                "projectPath": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Infra.Data\\Infra.Data.csproj"
               }
             }
           }
