@@ -112,7 +112,6 @@ D:\TCC\Projetos\Loja-PG\TCC-Back\Service\obj\Debug\net6.0\Service.AssemblyInfo.c
 D:\TCC\Projetos\Loja-PG\TCC-Back\Service\obj\Debug\net6.0\Service.csproj.CoreCompileInputs.cache
 D:\TCC\Projetos\Loja-PG\TCC-Back\Service\obj\Debug\net6.0\Service.csproj.CopyComplete
 D:\TCC\Projetos\Loja-PG\TCC-Back\Service\obj\Debug\net6.0\Service.dll
-D:\TCC\Projetos\Loja-PG\TCC-Back\Service\obj\Debug\net6.0\refint\Service.dll
 D:\TCC\Projetos\Loja-PG\TCC-Back\Service\obj\Debug\net6.0\Service.pdb
 D:\TCC\Projetos\Loja-PG\TCC-Back\Service\obj\Debug\net6.0\ref\Service.dll
 F:\TCC\Projetos\Loja-PG\TCC-Back\Service\bin\Debug\net6.0\Service.deps.json
@@ -132,3 +131,4 @@ F:\TCC\Projetos\Loja-PG\TCC-Back\Service\obj\Debug\net6.0\Service.csproj.CopyCom
 F:\TCC\Projetos\Loja-PG\TCC-Back\Service\obj\Debug\net6.0\Service.dll
 F:\TCC\Projetos\Loja-PG\TCC-Back\Service\obj\Debug\net6.0\ref\Service.dll
 F:\TCC\Projetos\Loja-PG\TCC-Back\Service\obj\Debug\net6.0\Service.pdb
+D:\TCC\Projetos\Loja-PG\TCC-Back\Service\bin\Debug\net6.0\ref\Service.dll

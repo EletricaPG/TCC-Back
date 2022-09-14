@@ -6,8 +6,8 @@ namespace Domain.Entity
     {
         
         public string Id  { get; set; } = Guid.NewGuid().ToString();
-        public string IdOrder { get; set; }
-        public string  IdProduct { get; set; }
+        public string IdOrder { get; set; } = "";
+        public string  IdProduct { get; set; } = "";
         public int AmountOrder { get; set; }
         public int MyProperty { get; set; }
         [Column(TypeName = "decimal(18,2)")]

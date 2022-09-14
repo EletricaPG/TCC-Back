@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Infra.Data\\Infra.Data.csproj": {}
+    "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Infra.Data\\Infra.Data.csproj": {}
   },
   "projects": {
-    "F:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\Domain.csproj": {
+    "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "F:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\Domain.csproj",
+        "projectPath": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Programmers\\.nuget\\packages\\",
-        "outputPath": "F:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\obj\\",
+        "outputPath": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Programmers\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -56,14 +56,14 @@
         }
       }
     },
-    "F:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Infra.Data\\Infra.Data.csproj": {
+    "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Infra.Data\\Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Infra.Data\\Infra.Data.csproj",
+        "projectUniqueName": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Infra.Data\\Infra.Data.csproj",
         "projectName": "Infra.Data",
-        "projectPath": "F:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Infra.Data\\Infra.Data.csproj",
+        "projectPath": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Infra.Data\\Infra.Data.csproj",
         "packagesPath": "C:\\Users\\Programmers\\.nuget\\packages\\",
-        "outputPath": "F:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Infra.Data\\obj\\",
+        "outputPath": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Programmers\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -78,8 +78,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\Domain.csproj": {
-                "projectPath": "F:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\Domain.csproj"
+              "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\Domain.csproj"
               }
             }
           }

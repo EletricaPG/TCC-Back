@@ -428,7 +428,6 @@ D:\TCC\Projetos\Loja-PG\TCC-Back\API-Pg\obj\Debug\net6.0\staticwebassets.develop
 D:\TCC\Projetos\Loja-PG\TCC-Back\API-Pg\obj\Debug\net6.0\scopedcss\bundle\API-PG.styles.css
 D:\TCC\Projetos\Loja-PG\TCC-Back\API-Pg\obj\Debug\net6.0\API-PG.csproj.CopyComplete
 D:\TCC\Projetos\Loja-PG\TCC-Back\API-Pg\obj\Debug\net6.0\API-PG.dll
-D:\TCC\Projetos\Loja-PG\TCC-Back\API-Pg\obj\Debug\net6.0\refint\API-PG.dll
 D:\TCC\Projetos\Loja-PG\TCC-Back\API-Pg\obj\Debug\net6.0\API-PG.pdb
 D:\TCC\Projetos\Loja-PG\TCC-Back\API-Pg\obj\Debug\net6.0\API-PG.genruntimeconfig.cache
 D:\TCC\Projetos\Loja-PG\TCC-Back\API-Pg\obj\Debug\net6.0\ref\API-PG.dll
@@ -494,3 +493,4 @@ F:\TCC\Projetos\Loja-PG\TCC-Back\api-pg\obj\Debug\net6.0\API-PG.dll
 F:\TCC\Projetos\Loja-PG\TCC-Back\api-pg\obj\Debug\net6.0\ref\API-PG.dll
 F:\TCC\Projetos\Loja-PG\TCC-Back\api-pg\obj\Debug\net6.0\API-PG.pdb
 F:\TCC\Projetos\Loja-PG\TCC-Back\api-pg\obj\Debug\net6.0\API-PG.genruntimeconfig.cache
+D:\TCC\Projetos\Loja-PG\TCC-Back\api-pg\bin\Debug\net6.0\ref\API-PG.dll

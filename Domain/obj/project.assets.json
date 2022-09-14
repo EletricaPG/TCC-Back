@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\Domain.csproj",
+      "projectUniqueName": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "F:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\Domain.csproj",
+      "projectPath": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\Programmers\\.nuget\\packages\\",
-      "outputPath": "F:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\obj\\",
+      "outputPath": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Programmers\\AppData\\Roaming\\NuGet\\NuGet.Config"

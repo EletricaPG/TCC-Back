@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Xi9DLF7ypbXy/zUYpfMuyFeqH1uGzlK8sSWnwxNAfqk3sb1j5Ez+PWR+fza2qh3UiKb6Sq7/13M57UEA3Vu4xw==",
+  "dgSpecHash": "KmeUdWQYPOjmESOjd3PVpPl7cuo+tKliT2xBWerB1QHDLuF8MS+KG9yz4tgNxfNpJZW7mWGoutRct8F8p+TVdw==",
   "success": true,
-  "projectFilePath": "F:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\API-PG\\API-PG.csproj",
+  "projectFilePath": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\api-pg\\API-PG.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Programmers\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Programmers\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

@@ -1628,11 +1628,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\api-pg\\API-PG.csproj",
+      "projectUniqueName": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\api-pg\\API-PG.csproj",
       "projectName": "API-PG",
-      "projectPath": "F:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\api-pg\\API-PG.csproj",
+      "projectPath": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\api-pg\\API-PG.csproj",
       "packagesPath": "C:\\Users\\Programmers\\.nuget\\packages\\",
-      "outputPath": "F:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\api-pg\\obj\\",
+      "outputPath": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\api-pg\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Programmers\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1647,14 +1647,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "F:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\Domain.csproj": {
-              "projectPath": "F:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\Domain.csproj"
+            "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\Domain.csproj"
             },
-            "F:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Infra.Data\\Infra.Data.csproj": {
-              "projectPath": "F:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Infra.Data\\Infra.Data.csproj"
+            "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Infra.Data\\Infra.Data.csproj": {
+              "projectPath": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Infra.Data\\Infra.Data.csproj"
             },
-            "F:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Service\\Service.csproj": {
-              "projectPath": "F:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Service\\Service.csproj"
+            "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Service\\Service.csproj": {
+              "projectPath": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Service\\Service.csproj"
             }
           }
         }

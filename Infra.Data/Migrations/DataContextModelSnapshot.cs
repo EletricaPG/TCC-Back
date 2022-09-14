@@ -39,6 +39,57 @@ namespace Infra.Data.Migrations
                     b.ToTable("Adm");
                 });
 
+            modelBuilder.Entity("Domain.Entity.Buy", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("IdProduct")
+                        .IsRequired()
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("IdProvider")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<decimal>("ValueTotal")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Buy");
+                });
+
+            modelBuilder.Entity("Domain.Entity.BuyDetails", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("AmountBuy")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("IdBuy")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("IdProduct")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<decimal>("SubTotal")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<decimal>("ValueUni")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("BuyDetails");
+                });
+
             modelBuilder.Entity("Domain.Entity.Category", b =>
                 {
                     b.Property<string>("Id")
@@ -165,8 +216,7 @@ namespace Infra.Data.Migrations
                     b.Property<int>("CategoryId")
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("Description")
-                        .IsRequired()
+                    b.Property<decimal>("Description")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Name")

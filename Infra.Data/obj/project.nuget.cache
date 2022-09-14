@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b+au5gUpeal5w41UFX3Zm58lwIMeynay6zqJ1WsHweWT09iZ2K6h5EBm7ftVTOsJNBx/nLgRmt4usGihRRIZvg==",
+  "dgSpecHash": "FIAceQ90zsqH8NAeRsf/OIrJgabqw+ifrm5SJX9z7HWsQNQioeZeFr2sUZxAgzdK6e/xMecHjZ9qMlqVmpEWeg==",
   "success": true,
-  "projectFilePath": "F:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Infra.Data\\Infra.Data.csproj",
+  "projectFilePath": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Infra.Data\\Infra.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Programmers\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Programmers\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

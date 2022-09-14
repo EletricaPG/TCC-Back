@@ -9,7 +9,9 @@ namespace Infra.Data.Mapping
     {
         public AutoMapperProfiles()
         {
-            CreateMap<Adm, AdmModel>().ReverseMap();
+             CreateMap<Adm, AdmModel>().ReverseMap();
+             CreateMap<Buy, BuyModel>().ReverseMap();
+             CreateMap<Buy, BuyDetailsModel>().ReverseMap();
             CreateMap<Category, CategoryModel>().ReverseMap();
             CreateMap<Client, ClientModel>().ReverseMap();
             CreateMap<Order, OrderModel>().ReverseMap();

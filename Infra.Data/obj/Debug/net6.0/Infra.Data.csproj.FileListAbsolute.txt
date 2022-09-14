@@ -113,7 +113,6 @@ D:\TCC\Projetos\Loja-PG\TCC-Back\infra.data\obj\Debug\net6.0\Infra.Data.Assembly
 D:\TCC\Projetos\Loja-PG\TCC-Back\infra.data\obj\Debug\net6.0\Infra.Data.csproj.CoreCompileInputs.cache
 D:\TCC\Projetos\Loja-PG\TCC-Back\infra.data\obj\Debug\net6.0\Infra.Data.csproj.CopyComplete
 D:\TCC\Projetos\Loja-PG\TCC-Back\infra.data\obj\Debug\net6.0\Infra.Data.dll
-D:\TCC\Projetos\Loja-PG\TCC-Back\infra.data\obj\Debug\net6.0\refint\Infra.Data.dll
 D:\TCC\Projetos\Loja-PG\TCC-Back\infra.data\obj\Debug\net6.0\Infra.Data.pdb
 D:\TCC\Projetos\Loja-PG\TCC-Back\infra.data\obj\Debug\net6.0\Infra.Data.genruntimeconfig.cache
 D:\TCC\Projetos\Loja-PG\TCC-Back\infra.data\obj\Debug\net6.0\ref\Infra.Data.dll
@@ -134,3 +133,4 @@ F:\TCC\Projetos\Loja-PG\TCC-Back\Infra.Data\obj\Debug\net6.0\Infra.Data.dll
 F:\TCC\Projetos\Loja-PG\TCC-Back\Infra.Data\obj\Debug\net6.0\ref\Infra.Data.dll
 F:\TCC\Projetos\Loja-PG\TCC-Back\Infra.Data\obj\Debug\net6.0\Infra.Data.pdb
 F:\TCC\Projetos\Loja-PG\TCC-Back\Infra.Data\obj\Debug\net6.0\Infra.Data.genruntimeconfig.cache
+D:\TCC\Projetos\Loja-PG\TCC-Back\Infra.Data\bin\Debug\net6.0\ref\Infra.Data.dll

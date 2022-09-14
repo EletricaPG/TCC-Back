@@ -11,8 +11,8 @@ namespace Domain.Model
 
        public DateTime Date       { get; set; } //Data e hora do Pedido
 
-       public string IdPayment      { get; set; } //Forma de Pagamento do Pedido
+       public string IdPayment { get; set; } = ""; //Forma de Pagamento do Pedido
 
-       public string IdClient     { get; set; } // Id do Cliente
+       public string IdClient { get; set; } = "";// Id do Cliente
     }
 }
