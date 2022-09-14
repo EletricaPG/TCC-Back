@@ -13,6 +13,10 @@ namespace Infra.Data.Mapping
             CreateMap<Category, CategoryModel>().ReverseMap();
             CreateMap<Client, ClientModel>().ReverseMap();
             CreateMap<Order, OrderModel>().ReverseMap();
+            CreateMap<OrderDetails,OrderDetailsModel>().ReverseMap();
+            CreateMap<Payment,PaymentModel>().ReverseMap();
+            CreateMap<Product,ProductModel>().ReverseMap();
+             CreateMap<Provider,ProviderModel>().ReverseMap();
         }
     }
 }

@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\isabe\\.nuget\\packages\\": {}
+    "C:\\Users\\Programmers\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\Domain.csproj",
+      "projectUniqueName": "F:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\Domain.csproj",
-      "packagesPath": "C:\\Users\\isabe\\.nuget\\packages\\",
-      "outputPath": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\obj\\",
+      "projectPath": "F:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\Domain.csproj",
+      "packagesPath": "C:\\Users\\Programmers\\.nuget\\packages\\",
+      "outputPath": "F:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\isabe\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Programmers\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

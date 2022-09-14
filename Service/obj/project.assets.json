@@ -1405,19 +1405,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\isabe\\.nuget\\packages\\": {}
+    "C:\\Users\\Programmers\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Service\\Service.csproj",
+      "projectUniqueName": "F:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Service\\Service.csproj",
       "projectName": "Service",
-      "projectPath": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Service\\Service.csproj",
-      "packagesPath": "C:\\Users\\isabe\\.nuget\\packages\\",
-      "outputPath": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Service\\obj\\",
+      "projectPath": "F:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Service\\Service.csproj",
+      "packagesPath": "C:\\Users\\Programmers\\.nuget\\packages\\",
+      "outputPath": "F:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\isabe\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Programmers\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -1429,11 +1429,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\Domain.csproj"
+            "F:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\Domain.csproj": {
+              "projectPath": "F:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Domain\\Domain.csproj"
             },
-            "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Infra.Data\\Infra.Data.csproj": {
-              "projectPath": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Infra.Data\\Infra.Data.csproj"
+            "F:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Infra.Data\\Infra.Data.csproj": {
+              "projectPath": "F:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\Infra.Data\\Infra.Data.csproj"
             }
           }
         }
@@ -1462,7 +1462,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
