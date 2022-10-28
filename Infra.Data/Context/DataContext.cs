@@ -15,7 +15,7 @@ namespace Infra.Data.Context
         public DbSet<OrderDetails> OrderDetails {get; set;}
          public DbSet<Payment> Payment {get; set;}
          public DbSet<Product> Product {get; set;}
-         public DbSet<Provider> Provider {get; set;}
+         public DbSet<Supplier> Supplier {get; set;}
            
     }
 }

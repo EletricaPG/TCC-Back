@@ -47,16 +47,8 @@ namespace Infra.Data.Migrations
                     b.Property<DateTime>("Date")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("IdProduct")
-                        .IsRequired()
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<string>("IdProvider")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
                     b.Property<decimal>("ValueTotal")
-                        .HasColumnType("TEXT");
+                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 
@@ -83,7 +75,7 @@ namespace Infra.Data.Migrations
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<decimal>("ValueUni")
-                        .HasColumnType("TEXT");
+                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 
@@ -143,7 +135,7 @@ namespace Infra.Data.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<DateTime>("Date")
-                        .HasColumnType("decimal(18,2)");
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("IdClient")
                         .IsRequired()
@@ -154,7 +146,7 @@ namespace Infra.Data.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<decimal>("ValueTotal")
-                        .HasColumnType("TEXT");
+                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 
@@ -176,9 +168,6 @@ namespace Infra.Data.Migrations
                     b.Property<string>("IdProduct")
                         .IsRequired()
                         .HasColumnType("TEXT");
-
-                    b.Property<int>("MyProperty")
-                        .HasColumnType("INTEGER");
 
                     b.Property<decimal>("SubTotal")
                         .HasColumnType("decimal(18,2)");
@@ -213,10 +202,16 @@ namespace Infra.Data.Migrations
                     b.Property<int>("Amount")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("CategoryId")
-                        .HasColumnType("INTEGER");
+                    b.Property<string>("CategoryId")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
 
-                    b.Property<decimal>("Description")
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("IdSupplier")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Name")
@@ -226,12 +221,16 @@ namespace Infra.Data.Migrations
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
+                    b.Property<string>("UrlArquivo")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
                     b.HasKey("Id");
 
                     b.ToTable("Product");
                 });
 
-            modelBuilder.Entity("Domain.Entity.Provider", b =>
+            modelBuilder.Entity("Domain.Entity.Supplier", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("TEXT");
@@ -241,6 +240,10 @@ namespace Infra.Data.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("IdSupplier")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
@@ -258,7 +261,7 @@ namespace Infra.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Provider");
+                    b.ToTable("Supplier");
                 });
 #pragma warning restore 612, 618
         }

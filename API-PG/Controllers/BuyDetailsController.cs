@@ -6,13 +6,14 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace API_PG.Controllers
 {
-     [ApiController]
+    [ApiController]
      [Route("api/[controller]")]
-    public class BuyDetailsContrller: ControllerBase
+    public class BuyDetailsController: ControllerBase
     {
+        
         public IBaseService<BuyDetails> Service {get;}
         public IMapper Mapper {get;}
-        public BuyDetailsContrller(IBaseService<BuyDetails> service,IMapper mapper)
+        public BuyDetailsController(IBaseService<BuyDetails> service,IMapper mapper)
         {
             this.Mapper = mapper;
             this.Service = service;
@@ -36,11 +37,9 @@ namespace API_PG.Controllers
        [HttpPost]
         public async Task<IActionResult> Post(BuyDetailsModel buydetails)
         {
-
             var buydetails1 = this.Mapper.Map<BuyDetails>(buydetails);
-           
-
-            this.Service.Add(buydetails1);
+          
+           this.Service.Add(buydetails1);
 
             if (await this.Service.SaveChangesAsync())
                 return Created($"api/BuyDetails/{buydetails.Id}", buydetails);

@@ -1,6 +1,6 @@
-namespace Domain.Entity
+namespace Domain.Model
 {
-    public class Provider
+    public class SupplierModel
     {
         
         //Fornecedor
@@ -9,6 +9,6 @@ namespace Domain.Entity
         public string Cnpj { get; set; } = "";
         public string Phone { get; set; } = "";
         public string Email { get; set; } = "";
-        public string NameCompany { get; set; } = "";//Nome da Empresa
+        public string NameCompany { get; set; } = ""; //Nome da Empresa
     }
 }

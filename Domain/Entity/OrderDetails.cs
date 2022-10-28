@@ -9,10 +9,11 @@ namespace Domain.Entity
         public string IdOrder { get; set; } = "";
         public string  IdProduct { get; set; } = "";
         public int AmountOrder { get; set; }
-        public int MyProperty { get; set; }
-        [Column(TypeName = "decimal(18,2)")]
+
+        [Column (TypeName = "decimal(18,2)")]
         public decimal ValueUni { get; set; }
         [Column(TypeName = "decimal(18,2)")]
         public decimal SubTotal { get; set; }
+       
     }
 }

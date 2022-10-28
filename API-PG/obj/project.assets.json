@@ -1623,7 +1623,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Programmers\\.nuget\\packages\\": {}
+    "C:\\Users\\isabe\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -1631,11 +1631,11 @@
       "projectUniqueName": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\api-pg\\API-PG.csproj",
       "projectName": "API-PG",
       "projectPath": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\api-pg\\API-PG.csproj",
-      "packagesPath": "C:\\Users\\Programmers\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\isabe\\.nuget\\packages\\",
       "outputPath": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\api-pg\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Programmers\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\isabe\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -1696,7 +1696,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

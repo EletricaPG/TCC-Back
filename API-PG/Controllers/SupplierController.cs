@@ -9,36 +9,36 @@ namespace API_PG.Controllers
      [ApiController]
     [Route("api/[controller]")]
     
-    public class ProviderController : ControllerBase
+    public class SupplierController : ControllerBase
     {
-         public IBaseService<Provider> Service { get; }
+         public IBaseService<Supplier> Service { get; }
         public IMapper Mapper { get; }
 
-        public ProviderController(IBaseService<Provider> service,IMapper mapper){
+        public SupplierController(IBaseService<Supplier> service,IMapper mapper){
             Service = service;
             Mapper = mapper;
         }
          [HttpGet]
         public async Task<IActionResult> Get(){
             var entity = await this.Service.GetAll();
-            var results = this.Mapper.Map<Provider[]>(entity);
+            var results = this.Mapper.Map<Supplier[]>(entity);
             return Ok(results);
         }
 
-         [HttpGet("{ProductId}")]
-        public async Task<IActionResult> GetById(string ProviderId){
-            var entity = await this.Service.GetById(ProviderId);
-            var results = this.Mapper.Map<Provider>(entity);
+         [HttpGet("{SupplierId}")]
+        public async Task<IActionResult> GetById(string SupplierId){
+            var entity = await this.Service.GetById(SupplierId);
+            var results = this.Mapper.Map<Supplier>(entity);
             return Ok(results);
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post(ProviderModel provider){
-            var Prov = this.Mapper.Map<Provider>(provider);
-            this.Service.Add(Prov);
+        public async Task<IActionResult> Post(SupplierModel supplier){
+            var Sup = this.Mapper.Map<Supplier>(supplier);
+            this.Service.Add(Sup);
 
             if(await this.Service.SaveChangesAsync())
-                return Created($"api/Provider/{provider.Id}",provider);
+                return Created($"api/Supplier/{supplier.Id}",supplier);
             return BadRequest();
         }
 
@@ -56,7 +56,7 @@ namespace API_PG.Controllers
          }
 
          [HttpPut("{Id}")]
-         public async Task<IActionResult> Put(string Id, ProviderModel model){
+         public async Task<IActionResult> Put(string Id, SupplierModel model){
             var entity = await this.Service.GetById(Id);
 
            if (entity == null) return NotFound();
@@ -65,7 +65,7 @@ namespace API_PG.Controllers
 
             if(await this.Service.SaveChangesAsync())
           
-            return Created($"api/Provider/{model.Id}", this.Mapper.Map<ProviderModel>(entity));
+            return Created($"api/Supplier/{model.Id}", this.Mapper.Map<SupplierModel>(entity));
             return BadRequest();
          }
 

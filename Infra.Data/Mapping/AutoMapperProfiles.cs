@@ -18,7 +18,7 @@ namespace Infra.Data.Mapping
             CreateMap<OrderDetails,OrderDetailsModel>().ReverseMap();
             CreateMap<Payment,PaymentModel>().ReverseMap();
             CreateMap<Product,ProductModel>().ReverseMap();
-             CreateMap<Provider,ProviderModel>().ReverseMap();
+             CreateMap<Supplier,SupplierModel>().ReverseMap();
         }
     }
 }

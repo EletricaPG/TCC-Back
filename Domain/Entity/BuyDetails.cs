@@ -9,8 +9,12 @@ namespace Domain.Entity
         public string IdBuy { get; set; } = "";//Id da compra
         public string IdProduct { get; set; } = "";//Id do produto
         public int  AmountBuy { get; set; }// Quantidade comprada
+
+        [Column (TypeName = "decimal(18,2)")]
         public decimal ValueUni { get; set; } 
          [Column (TypeName = "decimal(18,2)")]
         public decimal SubTotal { get; set; }
+    
+        
     }
 }

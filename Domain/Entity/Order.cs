@@ -5,9 +5,9 @@ namespace Domain.Entity
     public class Order
     {
         public string Id           { get; set; } = Guid.NewGuid().ToString();
-
+      
+       [Column (TypeName = "decimal(18,2)")]
        public decimal ValueTotal  { get; set; } //Valor total do Pedido
-       [Column(TypeName = "decimal(18,2)")]
 
        public DateTime Date       { get; set; } //Data e hora do Pedido
 
