@@ -25,7 +25,7 @@ namespace API_PG.Controllers
             var results = this.Mapper.Map<OrderModel[]>(entity);
             return Ok(entity);
         }
-          [HttpGet ("{ClientId}")]
+          [HttpGet ("{OrderId}")]
         public async Task<IActionResult>GetById(string OrderId)
         {
             var entity = await this.Service.GetById(OrderId);

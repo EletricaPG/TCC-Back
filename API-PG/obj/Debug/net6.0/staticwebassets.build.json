@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hbOjDs0wArDDjviXSjcltgqeufR39AA6pJY0GrvwI6U=",
+  "Hash": "xa5YHFYPYp8QBwBJUuOWllQozLWCZut4p7H5YClpW9c=",
   "Source": "API-PG",
   "BasePath": "_content/API-PG",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "API-PG\\wwwroot",
       "Source": "API-PG",
-      "ContentRoot": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\API-PG\\wwwroot\\",
+      "ContentRoot": "D:\\TCC\\Projetos\\Loja-PG\\TCC-Back\\api-pg\\wwwroot\\",
       "BasePath": "_content/API-PG",
       "Pattern": "**"
     }

@@ -18,6 +18,7 @@ builder.Services.AddDbContext<DataContext>(
 
 builder.Services.AddScoped(typeof(IBaseService<>),typeof(BaseService<>));
 builder.Services.AddAutoMapper(typeof(DataContext));
+builder.Services.AddHttpContextAccessor();
 
 var app = builder.Build();
 

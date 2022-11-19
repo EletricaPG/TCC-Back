@@ -24,9 +24,9 @@ namespace API_PG.Controllers
 
 
         private readonly IHttpContextAccessor httpContextAccessor;
-        private readonly IWebHostEnvironment hostingEnvironment;
+        private readonly IWebHostEnvironment hostingEnvironment; 
 
-        public ProductController(IBaseService<Product> service, IMapper mapper, IHttpContextAccessor httpContextAccessor, IWebHostEnvironment hostingEnvironment)
+        public ProductController(IBaseService<Product> service, IMapper mapper, IHttpContextAccessor httpContextAccessor, IWebHostEnvironment hostingEnvironment )
         {
             this.hostingEnvironment = hostingEnvironment;
             this.httpContextAccessor =  httpContextAccessor;
@@ -53,8 +53,13 @@ namespace API_PG.Controllers
         [HttpPost]
         public async Task<IActionResult> Post(ProductModel product)
         {
+
             var Prod = this.Mapper.Map<Product>(product);
+             Prod.UrlArquivo = "assets/"+ Path.GetFileName(product.UrlArquivo);
+             
             this.Service.Add(Prod);
+            
+        
 
             if (await this.Service.SaveChangesAsync())
                 return Created($"api/Product/{product.Id}", product);
@@ -80,6 +85,7 @@ namespace API_PG.Controllers
             var entity = await this.Service.GetById(Id);
 
             if (entity == null) return NotFound();
+             model.UrlArquivo = "assets/" + Path.GetFileName(model.UrlArquivo);
             this.Mapper.Map(model, entity);
             this.Service.Update(entity);
 
@@ -92,34 +98,34 @@ namespace API_PG.Controllers
 
 
 
-        [HttpPost("EnviarArquivo")]
+        // [HttpPost("EnviarArquivo")]
 
-        public IActionResult EnviarArquivo()
-        {
-            try
-            {
+        // public IActionResult EnviarArquivo()
+        // {
+        //     try
+        //     {
 
-                var formFile = this.httpContextAccessor.HttpContext.Request.Form.Files["arquivoEnviado"];
-                var nomeArquivo = formFile.FileName;
-                var extensao = nomeArquivo.Split(".").Last();
-                string novoNomeArquivo = GerarNovoNomeArquivo(nomeArquivo, extensao);
-                var pastaArquivos = this.hostingEnvironment.WebRootPath + "\\arquivos\\";
-                var nomeCompleto = pastaArquivos + novoNomeArquivo;
+        //         var formFile = this.httpContextAccessor.HttpContext.Request.Form.Files["arquivoEnviado"] ;
+        //         var nomeArquivo = formFile.FileName;
+        //         var extensao = nomeArquivo.Split(".").Last();
+        //         string novoNomeArquivo = GerarNovoNomeArquivo(nomeArquivo, extensao);
+        //         var pastaArquivos = this.hostingEnvironment.WebRootPath + "\\arquivos\\";
+        //         var nomeCompleto = pastaArquivos + novoNomeArquivo;
 
-                using (var streamArquivos = new FileStream(nomeCompleto, FileMode.Create))
-                {
-                    formFile.CopyTo(streamArquivos);
-                }
+        //         using (var streamArquivos = new FileStream(nomeCompleto, FileMode.Create))
+        //         {
+        //             formFile.CopyTo(streamArquivos);
+        //         }
                 
-                return Ok(novoNomeArquivo);
-                // Json(novoNomeArquivo)
-            }
+        //         return Ok(novoNomeArquivo);
+        //         // Json(novoNomeArquivo)
+        //     }
 
-            catch (Exception ex)
-            {
-                return BadRequest(ex.ToString());
-            }
-        }
+        //     catch (Exception ex)
+        //     {
+        //         return BadRequest(ex.ToString());
+        //     }
+        // }
 
         private static string GerarNovoNomeArquivo(string nomeArquivo, string extensao)
         {

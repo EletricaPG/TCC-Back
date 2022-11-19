@@ -39,49 +39,6 @@ namespace Infra.Data.Migrations
                     b.ToTable("Adm");
                 });
 
-            modelBuilder.Entity("Domain.Entity.Buy", b =>
-                {
-                    b.Property<string>("Id")
-                        .HasColumnType("TEXT");
-
-                    b.Property<DateTime>("Date")
-                        .HasColumnType("TEXT");
-
-                    b.Property<decimal>("ValueTotal")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Buy");
-                });
-
-            modelBuilder.Entity("Domain.Entity.BuyDetails", b =>
-                {
-                    b.Property<string>("Id")
-                        .HasColumnType("TEXT");
-
-                    b.Property<int>("AmountBuy")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("IdBuy")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("IdProduct")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<decimal>("SubTotal")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<decimal>("ValueUni")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("BuyDetails");
-                });
-
             modelBuilder.Entity("Domain.Entity.Category", b =>
                 {
                     b.Property<string>("Id")
@@ -161,21 +118,22 @@ namespace Infra.Data.Migrations
                     b.Property<int>("AmountOrder")
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("IdOrder")
+                    b.Property<string>("IdProduct")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("IdProduct")
-                        .IsRequired()
+                    b.Property<string>("OrderId")
                         .HasColumnType("TEXT");
 
                     b.Property<decimal>("SubTotal")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<decimal>("ValueUni")
+                    b.Property<float>("ValueUni")
                         .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("OrderId");
 
                     b.ToTable("OrderDetails");
                 });
@@ -243,10 +201,6 @@ namespace Infra.Data.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("IdSupplier")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("TEXT");
@@ -262,6 +216,18 @@ namespace Infra.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Supplier");
+                });
+
+            modelBuilder.Entity("Domain.Entity.OrderDetails", b =>
+                {
+                    b.HasOne("Domain.Entity.Order", null)
+                        .WithMany("OrderDetails")
+                        .HasForeignKey("OrderId");
+                });
+
+            modelBuilder.Entity("Domain.Entity.Order", b =>
+                {
+                    b.Navigation("OrderDetails");
                 });
 #pragma warning restore 612, 618
         }

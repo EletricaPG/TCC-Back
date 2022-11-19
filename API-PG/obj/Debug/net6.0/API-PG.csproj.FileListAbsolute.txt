@@ -557,3 +557,4 @@ D:\TCC\Projetos\Loja-PG\TCC-Back\API-PG\obj\Debug\net6.0\API-PG.pdb
 D:\TCC\Projetos\Loja-PG\TCC-Back\API-PG\obj\Debug\net6.0\API-PG.genruntimeconfig.cache
 D:\TCC\Projetos\Loja-PG\TCC-Back\API-PG\obj\Debug\net6.0\ref\API-PG.dll
 D:\TCC\Projetos\Loja-PG\TCC-Back\API-PG\bin\Debug\net6.0\API-PG.staticwebassets.runtime.json
+E:\TCC\Projetos\Loja-PG\TCC-Back\api-pg\bin\Debug\net6.0\API-PG.staticwebassets.runtime.json

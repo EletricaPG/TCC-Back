@@ -10,6 +10,6 @@ namespace Domain.Entity
         public string Phone { get; set; } = "";
         public string Email { get; set; } = "";
         public string NameCompany { get; set; } = "";//Nome da Empresa
-        public string IdSupplier { get; set; } = "";
+        
     }
 }
